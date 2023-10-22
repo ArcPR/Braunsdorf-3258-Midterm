@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 11661057}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6272,9 +6272,9 @@ GameObject:
   - component: {fileID: 1174695101}
   - component: {fileID: 1174695100}
   - component: {fileID: 1174695099}
-  - component: {fileID: 1174695105}
   - component: {fileID: 1174695104}
   - component: {fileID: 1174695103}
+  - component: {fileID: 1174695105}
   m_Layer: 0
   m_Name: Boulder
   m_TagString: Untagged
@@ -6297,7 +6297,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6362,7 +6362,7 @@ Transform:
   m_GameObject: {fileID: 1174695098}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.38, y: 13.33, z: 0.6899996}
+  m_LocalPosition: {x: -2.512, y: 13.33, z: 0.6899996}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6397,7 +6397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"gravity","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &1174695105
 Rigidbody:
