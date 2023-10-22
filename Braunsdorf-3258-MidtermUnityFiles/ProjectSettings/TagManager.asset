@@ -6,6 +6,7 @@ TagManager:
   tags:
   - score
   - player
+  - ammo
   layers:
   - Default
   - TransparentFX
